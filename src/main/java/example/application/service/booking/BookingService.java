@@ -1,8 +1,8 @@
-package example.todo.application.service.booking;
+package example.application.service.booking;
 
-import example.todo.domain.model.booking.BookingNumber;
-import example.todo.domain.model.booking.Cargo;
-import example.todo.domain.model.booking.Voyage;
+import example.domain.model.booking.BookingNumber;
+import example.domain.model.booking.Cargo;
+import example.domain.model.booking.Voyage;
 import org.springframework.stereotype.Service;
 
 /**

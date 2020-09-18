@@ -1,7 +1,10 @@
-package example.nogood.domain.model.booking;
+package example.domain.model.booking;
 
 import java.util.UUID;
 
+/**
+ * 予約番号
+ */
 public class BookingNumber {
     UUID number;
 

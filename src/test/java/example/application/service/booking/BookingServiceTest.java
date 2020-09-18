@@ -1,7 +1,7 @@
-package example.nogood.application.service.booking;
+package example.application.service.booking;
 
-import example.nogood.domain.model.booking.Cargo;
-import example.nogood.domain.model.booking.Voyage;
+import example.domain.model.booking.Cargo;
+import example.domain.model.booking.Voyage;
 import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
@@ -23,6 +23,6 @@ class BookingServiceTest {
         Cargo cargo = new Cargo(20);
 
         assertThrows(IllegalStateException.class, () ->
-            bookingService.booking(voyage, cargo));
+                bookingService.booking(voyage, cargo));
     }
 }
