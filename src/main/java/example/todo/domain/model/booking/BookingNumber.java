@@ -2,6 +2,9 @@ package example.todo.domain.model.booking;
 
 import java.util.UUID;
 
+/**
+ * 予約番号
+ */
 public class BookingNumber {
     UUID number;
 

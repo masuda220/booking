@@ -1,4 +1,8 @@
 package example.todo.domain.model.booking;
+
+/**
+ * 貨物
+ */
 public class Cargo {
     int size;
 

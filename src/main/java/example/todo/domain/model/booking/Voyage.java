@@ -1,5 +1,8 @@
 package example.todo.domain.model.booking;
 
+/**
+ * 航海
+ */
 public class Voyage {
     int bookedSize;
     static final int capacity = 100;
